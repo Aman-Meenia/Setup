@@ -236,6 +236,9 @@ config.default_prog = tmux_command
 
 ```
 brew install starship
+// write in .zshrc
+# eval "$(starship init zsh)"
+
 starship preset gruvbox-rainbow -o ~/.config/starship.toml
 ```
 
