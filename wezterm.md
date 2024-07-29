@@ -2,20 +2,17 @@
 # How to setup wezterm for macbook 
 
 ## Installation
-
 ```
 brew install --cask wezterm
 ```
 
 ## Brew Installation 
-
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 
 ## Create config file to customize wezterm .wezterm.lua
-
 ```
 -- Pull in the wezterm API
 local wezterm = require("wezterm")
@@ -27,7 +24,6 @@ return config
 ```
 
 ## Theme setup 
-
 ```
 -- Appearance
 config.colors = {
@@ -92,7 +88,6 @@ config.colors = {
 ```
 
 ## Window Padding
-
 ```
 -- Set window padding
 config.window_padding = {
@@ -118,8 +113,15 @@ config.window_frame = {
 }
 ```
 
+## Font size
+```
+-- font size 
+config.font_size = 19
+```
+
 ## Font 
 ```
+-- font 
 config.font = wezterm.font("MesloLGS Nerd Font Mono")
                       or
 config.font = wezterm.font("JetBrains Mono", {})
@@ -127,6 +129,7 @@ config.font = wezterm.font("JetBrains Mono", {})
 
 ## Disable top bar 
 ```
+-- disale mac default top bar
 config.window_decorations = "RESIZE"
 ```
 
@@ -139,6 +142,7 @@ config.macos_window_background_blur = 25
 
 ## Hide cursor when typing
 ```
+-- make cursor hide whiel typing
 config.hide_mouse_cursor_when_typing = true
 ```
 
