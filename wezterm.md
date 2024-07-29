@@ -208,6 +208,12 @@ wezterm.plugin.require("https://github.com/nekowinston/wezterm-bar").apply_to_co
 
 ```
 
+## Make link clickable 
+```
+config.hyperlink_rules = wezterm.default_hyperlink_rules()
+config.hyperlink_rules = wezterm.default_hyperlink_rules()
+```
+
 ## To open tmux session automatically when open wezterm
 
 ```
