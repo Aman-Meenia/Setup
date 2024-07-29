@@ -1,5 +1,5 @@
 
-# How to setup wezterm for macbook or linux
+# How to setup wezterm for macbook 
 
 ## Installation
 
